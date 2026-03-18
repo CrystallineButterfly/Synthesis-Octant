@@ -1,6 +1,6 @@
 # Octant Signal Forge
 
-- **Repo:** TODO_GITHUB_URL/Synthesis-Octant
+- **Repo:** https://github.com/CrystallineButterfly/Synthesis-Octant
 - **Primary track:** Octant Public Goods
 - **Overlap targets:** Venice Private Agents, Filecoin, Celo, ENS, YieldGuard, Markee
 - **Primary contract:** OctantSignalForge
