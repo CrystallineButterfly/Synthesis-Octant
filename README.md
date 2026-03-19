@@ -5,7 +5,7 @@
 - **Category:** public_goods
 - **Primary contract:** `OctantSignalForge`
 - **Primary module:** `octant_signal_forge`
-- **Submission status:** implementation ready, waiting for credentials and TxIDs.
+- **Submission status:** audited and offline-demo ready; optional live partner credentials unlock network execution.
 
 ## What this repo does
 
@@ -67,6 +67,30 @@ flowchart TD
 3. Persist a dry-run artifact before any live execution.
 4. Enforce onchain policy through the guarded contract wrapper.
 5. Verify outputs, update receipts, and render submission material.
+
+## Current readiness
+
+- **Latest verification:** `verified` at `2026-03-19T03:52:16+00:00`
+- **Execution mode:** `offline_prepared`
+- **Offline-prepared partners:** Filecoin (prepared_filecoin_bundle), Celo (prepared_contract_call), ENS (prepared_contract_call)
+- **Live credential blockers:** Octant, Venice, Markee
+- **Audit docs:** `docs/audit.md`, `docs/live_readiness.md`
+
+## Most sensitive actions
+
+- `venice_private_analysis` (Venice, high)
+
+## Live blocker details
+
+- **Octant** — OCTANT_SIGNAL_URL — https://octant.app/
+- **Venice** — VENICE_API_KEY, VENICE_CHAT_COMPLETIONS_URL, VENICE_MODEL — https://docs.venice.ai/
+- **Markee** — MARKEE_API_KEY, MARKEE_MESSAGE_URL — https://markee.xyz/
+
+## Latest evidence artifacts
+
+- `artifacts/filecoin/0x11ef2a19b8c52a013a60d97fdf1bf0845f7d56dc7040ce6fd134107ccfb97d88.json`
+- `artifacts/onchain_intents/celo_payment_settle.json`
+- `artifacts/onchain_intents/ens_ens_publish.json`
 
 ## Security controls
 
