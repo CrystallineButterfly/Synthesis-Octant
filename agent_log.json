@@ -7,5 +7,563 @@
     "details": {
       "status": "ready_for_credentials"
     }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:15+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:15+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x680c19540cf641b0ff393518277ad63f566c15e6a65253fccc0198fdbe9293c6"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:15+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xae0cc94b6fbb79bddb4c5b32056c6be245d7c73ecbff22475b4afab4e0e66169"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:15+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "CELO_RPC_URL",
+        "ENS_NAME",
+        "FILECOIN_API_TOKEN",
+        "FILECOIN_UPLOAD_URL",
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:15+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Octant Signal Forge",
+      "track": "Octant Public Goods",
+      "plan_id": "0x680c19540cf641b0ff393518277ad63f566c15e6a65253fccc0198fdbe9293c6",
+      "simulation_hash": "0xae0cc94b6fbb79bddb4c5b32056c6be245d7c73ecbff22475b4afab4e0e66169",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:15+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:15+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:15+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x680c19540cf641b0ff393518277ad63f566c15e6a65253fccc0198fdbe9293c6"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:15+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xae0cc94b6fbb79bddb4c5b32056c6be245d7c73ecbff22475b4afab4e0e66169"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:15+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "CELO_RPC_URL",
+        "ENS_NAME",
+        "FILECOIN_API_TOKEN",
+        "FILECOIN_UPLOAD_URL",
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:15+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Octant Signal Forge",
+      "track": "Octant Public Goods",
+      "plan_id": "0x680c19540cf641b0ff393518277ad63f566c15e6a65253fccc0198fdbe9293c6",
+      "simulation_hash": "0xae0cc94b6fbb79bddb4c5b32056c6be245d7c73ecbff22475b4afab4e0e66169",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:15+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:39:23.678178+00:00",
+    "stage": "security_review",
+    "actor": "audit_pass",
+    "message": "Completed the shared hardening and offline-artifact audit pass.",
+    "details": {
+      "status": "audited_ready_pending_live_credentials",
+      "primary_contract": "OctantSignalForge.sol"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:59+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:59+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xe68b7d84a40e45e633f1ddd0d6155ab70dc0531dd6c977443bdb678a9685580a",
+      "action_count": 6
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:59+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xce3481ab065e4a35ceffa29160156c14c7956c53327c356f9a586c678375947a"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:59+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ],
+      "artifact_count": 3
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:59+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Octant Signal Forge",
+      "track": "Octant Public Goods",
+      "plan_id": "0xe68b7d84a40e45e633f1ddd0d6155ab70dc0531dd6c977443bdb678a9685580a",
+      "simulation_hash": "0xce3481ab065e4a35ceffa29160156c14c7956c53327c356f9a586c678375947a",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/filecoin/0xe68b7d84a40e45e633f1ddd0d6155ab70dc0531dd6c977443bdb678a9685580a.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/ens_ens_publish.json"
+      ],
+      "partner_statuses": {
+        "Octant": "awaiting_credentials",
+        "Venice": "awaiting_credentials",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ENS": "prepared_contract_call",
+        "Markee": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:48:59+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:46+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:46+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xcfaa3f4408f744e2ef58e9234648dc46113ad60c33d2bdb077687fcd31a4f836",
+      "action_count": 6
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:46+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x25f142b67d5f535eed1609452c3f62eadffcb92cede3f68fd3baa84333b51a7c"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:46+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ],
+      "artifact_count": 3
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:46+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Octant Signal Forge",
+      "track": "Octant Public Goods",
+      "plan_id": "0xcfaa3f4408f744e2ef58e9234648dc46113ad60c33d2bdb077687fcd31a4f836",
+      "simulation_hash": "0x25f142b67d5f535eed1609452c3f62eadffcb92cede3f68fd3baa84333b51a7c",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/filecoin/0xcfaa3f4408f744e2ef58e9234648dc46113ad60c33d2bdb077687fcd31a4f836.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/ens_ens_publish.json"
+      ],
+      "partner_statuses": {
+        "Octant": "awaiting_credentials",
+        "Venice": "awaiting_credentials",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ENS": "prepared_contract_call",
+        "Markee": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:50:46+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xd4dbdafff44f388367e6665ab85fc098a93df54c31019910bbc3c5ab3d15bae6",
+      "action_count": 6
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x032eec7afe70168f313ebefb02dd33bb6890a329e55ac69cd1953fa3ccd75de3"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ],
+      "artifact_count": 3
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Octant Signal Forge",
+      "track": "Octant Public Goods",
+      "plan_id": "0xd4dbdafff44f388367e6665ab85fc098a93df54c31019910bbc3c5ab3d15bae6",
+      "simulation_hash": "0x032eec7afe70168f313ebefb02dd33bb6890a329e55ac69cd1953fa3ccd75de3",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/filecoin/0xd4dbdafff44f388367e6665ab85fc098a93df54c31019910bbc3c5ab3d15bae6.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/ens_ens_publish.json"
+      ],
+      "partner_statuses": {
+        "Octant": "awaiting_credentials",
+        "Venice": "awaiting_credentials",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ENS": "prepared_contract_call",
+        "Markee": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:51:48+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:16+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:16+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x11ef2a19b8c52a013a60d97fdf1bf0845f7d56dc7040ce6fd134107ccfb97d88",
+      "action_count": 6
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:16+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x30b8596a9722b4a3737ef623c564c27bb66686170252b4fe69f10c5c31bb1122"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:16+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ],
+      "artifact_count": 3
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:16+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Octant Signal Forge",
+      "track": "Octant Public Goods",
+      "plan_id": "0x11ef2a19b8c52a013a60d97fdf1bf0845f7d56dc7040ce6fd134107ccfb97d88",
+      "simulation_hash": "0x30b8596a9722b4a3737ef623c564c27bb66686170252b4fe69f10c5c31bb1122",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/filecoin/0x11ef2a19b8c52a013a60d97fdf1bf0845f7d56dc7040ce6fd134107ccfb97d88.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/ens_ens_publish.json"
+      ],
+      "partner_statuses": {
+        "Octant": "awaiting_credentials",
+        "Venice": "awaiting_credentials",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ENS": "prepared_contract_call",
+        "Markee": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:52:16+00:00"
+    }
   }
 ]
